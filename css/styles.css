@@ -1,0 +1,82 @@
+.topnav {
+  background-color: ;
+  color: ;
+  height: 150px;
+}
+
+.container {
+  padding: 2px 90px;
+}
+/* 
+.img {
+  float: left;
+} */
+
+.image-category {
+  width: 300px;
+  object-fit: cover;
+  margin: 0 0 1rem 0;
+  border-radius: 10px 10px 0 0;
+}
+body {
+  background-color: silver;
+}
+
+.container {
+  padding: 55px;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font
+}
+
+.Intro {
+  border-style: solid;
+  border-color: lightgray;
+  box-shadow: 0 0 6px 6px;
+  padding-left: 30px;
+}
+
+.row1 {
+  column-rule-style: solid;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.projects {
+  border-style: solid;
+  border-width: 10px;
+  border-color: lightgray;
+  box-shadow: 0 0 6px 6px;
+  padding: 3em;
+}
+
+.about {
+  border-style: solid;
+  border-width: 10px;
+  border-color: lightgray;
+  box-shadow: 0 0 6px 6px;
+  padding: 3em;
+}
+
+.job {
+  border-style: solid;
+  border-color: lightgray;
+  box-shadow: 0 0 6px 6px;
+  padding-left: 30px;
+}
+
+.intrest {
+  border-style: solid;
+  border-width: 10px;
+  border-color: lightgray;
+  box-shadow: 0 0 6px 6px;
+  padding: 3em;
+}
