@@ -85,8 +85,13 @@ img.welcome-image{
 #profile-link:hover{
     color:yellow;
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:500px){
     #projects{
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+    .links a{
+        display: flex;
         flex-wrap:wrap;
         flex-direction: column;
     }
