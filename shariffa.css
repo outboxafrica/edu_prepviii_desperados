@@ -33,9 +33,14 @@ nav {
  p {
     font-style: oblique;
     font-weight: bold;
+    align-items: center;
+    font-size:15pt
   }
+ 
   .category{
-
+    border: 20px;
+    border-image-width:2.6rem;
     width: 300px;
+    height:100px;
     margin: 1.0rem;
   }
