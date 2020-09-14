@@ -1,11 +1,15 @@
+/* 
+Alignment
+hierarchy(what you want to be seen fast)
+proximity(content that is related shd be close to each other)
+white space
+color
+*/
 @media{
     body {
       background-color:palevioletred;
     }
   }
-
-
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -22,25 +26,24 @@ nav {
      margin-right:8px;
  }
  .heading{
-     margin: 1rem 0 1rem 0;
+     margin: 4rem 0 4rem 0;
      text-align: center;
  }
  .sub-heading{
      font-size: 1.5rem;
-     margin: 0.5rem;
+     margin: 1rem;
      text-align: center;
  }
- p {
-    font-style: oblique;
-    font-weight: bold;
-    align-items: center;
-    font-size:15pt
-  }
- 
-  .category{
-    border: 20px;
-    border-image-width:2.6rem;
-    width: 300px;
-    height:100px;
-    margin: 1.0rem;
-  }
+ .category-row{
+     display: flex;
+     justify-content: center;
+     
+     
+ }
+ .category{
+     border:1px solid ;
+     width: 100%;
+     height:100%;
+     margin: 1.5rem;
+     
+ }
