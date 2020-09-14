@@ -1,0 +1,49 @@
+/* 
+Alignment
+hierarchy(what you want to be seen fast)
+proximity(content that is related shd be close to each other)
+white space
+color
+*/
+@media{
+    body {
+      background-color:palevioletred;
+    }
+  }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link{
+    display: flex;
+
+}
+ .logo{
+     font-size: 2rem;
+ }
+ .nav_link_item{
+     margin-right:8px;
+ }
+ .heading{
+     margin: 4rem 0 4rem 0;
+     text-align: center;
+ }
+ .sub-heading{
+     font-size: 1.5rem;
+     margin: 1rem;
+     text-align: center;
+ }
+ .category-row{
+     display: flex;
+     justify-content: center;
+     
+     
+ }
+ .category{
+     border:1px solid ;
+     width: 100%;
+     height:100%;
+     margin: 1.5rem;
+     
+ }
