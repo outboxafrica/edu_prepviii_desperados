@@ -1,0 +1,99 @@
+*{
+    margin:0;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px;
+    background-color: rgba(119, 22, 175, 0.979);
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width:100%;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+nav .links{
+    display:flex;
+}
+.links a{
+    padding-right:20px;
+    font-size:1.2rem;
+    color:rgb(255, 255, 0);
+    font-weight:bold;
+}
+.who{
+    font-family:Algerian;
+    font-size:2rem;
+    text-shadow: 2px 2px 5px orangered;
+    font-style: italic;
+}
+#welcome-section{
+    text-align:center;
+    background-color:#ffd40f;
+    font-family:Algerian;
+    height:100vh; 
+    margin-top:60px;
+}
+.welcome-words h1{
+    font-size: 3rem;
+    color:#9b2187;
+    text-shadow: 2px 2px 5px orangered;
+}
+.welcome-words h2{
+    font-family: forte;
+    color: rgb(71, 57, 31);
+    font-size:2rem;
+}
+.welcome-words{
+    padding: 25px;
+}
+img.welcome-image{
+    width:100%;
+    padding-top:40px;
+}
+
+#projects{
+    display:flex;
+    justify-content: space-around;
+    background-color:#ffd40f;
+}
+.project-tile{
+    border:solid thin none;
+    width:16.5%;
+    margin-top:10px;
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: 5px 10px 18px orange;
+
+}
+#connect{
+    text-align: center;
+    padding:20px;
+    background-color:rgba(119, 22, 175, 0.979);
+    font-size:2rem;
+    color:white;
+}
+#profile-link{
+    text-decoration:none;
+    color: orange;
+}
+#profile-link:hover{
+    color:yellow;
+}
+@media only screen and (max-width:500px){
+    #projects{
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+    .links a{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+    
+}
