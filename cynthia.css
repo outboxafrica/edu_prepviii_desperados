@@ -100,4 +100,13 @@ img.welcome-image{
     .links p a{
         text-align: center;
     }
+    .links{
+        display:flex;
+    }
+    .links p{
+       flex-direction: column;
+    }
+    .links p a{
+        text-align: center;
+    }
 }
