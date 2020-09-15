@@ -90,10 +90,13 @@ img.welcome-image{
         flex-wrap:wrap;
         flex-direction: column;
     }
-    .links a{
-        display: flex;
-        flex-wrap:wrap;
-        flex-direction: column;
+    .links{
+        display:flex;
     }
-    
+    .links p{
+       flex-direction: column;
+    }
+    .links p a{
+        text-align: center;
+    }
 }
