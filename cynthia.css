@@ -61,7 +61,6 @@ img.welcome-image{
     display:flex;
     justify-content: space-around;
     background-color:white;
-
 }
 .project-tile{
     border:solid thin none;
