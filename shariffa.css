@@ -36,11 +36,15 @@ nav {
     align-items: center;
     font-size:15pt
   }
- 
+  .category-row{
+    display: flex;
+    justify-content: center;
+    
+  }
   .category{
-    border: 20px;
-    border-image-width:2.6rem;
-    width: 300px;
-    height:100px;
-    margin: 1.0rem;
+    border:1px solid ;
+    width: 60%;
+    height:60%;
+    margin: 1.5rem;
+    object-fit: cover;
   }
