@@ -10,9 +10,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .nav_link{
     display: flex;
+    padding-right:20px;
+    font-size:1.2rem;
+    font-weight:bold;
+    text-decoration: none;
 
 }
  .logo{
@@ -34,7 +39,10 @@ nav {
     font-style: oblique;
     font-weight: bold;
     align-items: center;
-    font-size:15pt
+    font-size:15pt;
+    overflow: hidden;
+    animation-duration:3s;
+    animation-name:slidein;
   }
   .category-row{
     display: flex;
@@ -47,4 +55,10 @@ nav {
     height:60%;
     margin: 1.5rem;
     object-fit: cover;
+  }
+  .ann{
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
   }
