@@ -60,7 +60,7 @@ img.welcome-image{
 #projects{
     display:flex;
     justify-content: space-around;
-    background-color:#ffd40f;
+    background-color:wheat;
 }
 .project-tile{
     border:solid thin none;
