@@ -60,7 +60,7 @@ img.welcome-image{
 #projects{
     display:flex;
     justify-content: space-around;
-    background-color:wheat;
+    background-color:white;
 }
 .project-tile{
     border:solid thin none;
@@ -68,7 +68,7 @@ img.welcome-image{
     margin-top:10px;
     text-align: center;
     font-weight: bolder;
-    box-shadow: 5px 10px 18px orange;
+    box-shadow: 5px 10px 18px grey;
 
 }
 #connect{
@@ -90,10 +90,22 @@ img.welcome-image{
         flex-wrap:wrap;
         flex-direction: column;
     }
-    .links a{
+    .links {
         display: flex;
-        flex-wrap:wrap;
+    }
+    .links p{
         flex-direction: column;
     }
-    
+    .links p a{
+        text-align: center;
+    }
+    .links{
+        display:flex;
+    }
+    .links p{
+       flex-direction: column;
+    }
+    .links p a{
+        text-align: center;
+    }
 }

@@ -1,0 +1,53 @@
+body,html{
+    padding:0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0mtxt32cpM9PCyNJMLSvcXDR5p7fNRTZD4Q&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: Algerian;
+    color:  #f07526;
+    
+}
+.pictures{
+    padding-top: 10px;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.words{
+    padding-top:30px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.team{
+    line-height:10px;
+}
+.team h1{
+    font-size: 4rem;
+    font-family: Algerian;
+    color:   #ff3300;
+}
+.team p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:wheat;
+}
+.about{
+   padding-left:30px;
+   font-family: forte;
+   font-size: 1.5rem;
+   line-height: 18px;
+   color:wheat;
+}
+@media only screen and (max-width:600px){
+    *{
+        flex-wrap: wrap;
+    }
+}
