@@ -5,6 +5,10 @@ proximity(content that is related shd be close to each other)
 white space
 color
 */
+
+*{
+    margin: 0rem;
+}
 @media{
     body {
       background-color:palevioletred;
@@ -14,6 +18,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+  padding: 10px 0 10px 0;
 }
 .nav_link{
     display: flex;
@@ -26,12 +32,14 @@ nav {
      margin-right:8px;
  }
  .heading{
-     margin: 4rem 0 4rem 0;
-     text-align: center;
+    margin: 0 0 4rem 0;
+    text-align: center;
+    background-color: #f6eedf;
+    padding: 25px 0 25px 0;
  }
  .sub-heading{
      font-size: 1.5rem;
-     margin: 1rem;
+     margin: 0rem;
      text-align: center;
  }
  .category-row{
