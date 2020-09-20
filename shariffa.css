@@ -1,8 +1,8 @@
-@media{
+
     body {
       background-color:palevioletred;
     }
-  }
+
 
 
 
@@ -20,6 +20,8 @@ nav {
     padding-right:20px;
     font-size:1.2rem;
     font-weight:bold;
+}
+nav a{
     text-decoration: none;
 
 }
