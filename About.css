@@ -1,0 +1,29 @@
+@media{
+    body{
+        background-image: url('https://images.unsplash.com/photo-1519455953755-af066f52f1a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    }
+    
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  h1{
+    color: #28218a;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 1px;
+  }
