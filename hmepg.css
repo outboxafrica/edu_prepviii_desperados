@@ -2,19 +2,36 @@
     margin: 0;
   } */
   
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    background-color: #57bfd9;
-    color: white;
-    padding: 20px 0 20px 0;
-  }
-  
-  .nav_link {
-    display: flex;
-  }
+/* Add a black background color to the top navigation */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #57bfd9;
+  color: white;
+  padding: 20px 0 20px 0;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid white;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid white;
+}
   
   .logo {
     font-size: 2rem;
@@ -36,9 +53,7 @@ nav {
     background-repeat: no-repeat, repeat;
     padding: 15px;
   }
-  .nav_link_item {
-    margin-right: 8px;
-  } 
+  
 
   img {
     max-width: 100%;
