@@ -1,24 +1,126 @@
-body,html{
+  /* * {
+    margin: 0;
+  } */
+  
+/* Add a black background color to the top navigation */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #57bfd9;
+  color: white;
+  padding: 20px 0 20px 0;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid white;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid white;
+}
+  
+  .logo {
+    font-size: 2rem;
+  }
+  
+  .nav_link_item {
+    margin-right: 8px;
+  }
+  
+  /* Change the color of links on hover */
+ 
+  .logo {
+    font-size: 2rem;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  #example1 {
+    background-image: url(img\photo-1469.jpg), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+  
+
+  img {
+    max-width: 100%;
+    height: auto;
+    
+  }  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+body{
     padding:0;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0mtxt32cpM9PCyNJMLSvcXDR5p7fNRTZD4Q&usqp=CAU");
+    background-image: url("img\photo.jpg");
+    /* background-color: white; */
     background-repeat: no-repeat;
     background-size: cover;
 }
+body {margin:25px;}
 
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: white;
+  transition: transform .2s; /* Animation */
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  
+}
+  
+div.polaroid:hover {
+  transform: scale(0.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+ 
+  .container {
+    padding: 2px 16px;
+  }
  a{
     text-decoration: none;
     font-weight: bold;
     font-size: 1.8rem;
-    font-family: Algerian;
+    font-family: "Lucida Console", Courier, monospace;
     color:  #f07526;
     
 }
-.pictures{
-    padding-top: 10px;
-    display:flex;
-    justify-content: space-around;
-    text-align: center;
-}
+
 .words{
     padding-top:30px;
     display:flex;
@@ -31,8 +133,8 @@ body,html{
 }
 .team h1{
     font-size: 4rem;
-    font-family: Algerian;
-    color:   #ff3300;
+    font-family: "Lucida Console", Courier, monospace;
+    color:black;
 }
 .team p{
     font-weight: bold;
@@ -41,13 +143,51 @@ body,html{
 }
 .about{
    padding-left:30px;
-   font-family: forte;
+   font-family: "Lucida Console", Courier, monospace;
    font-size: 1.5rem;
    line-height: 18px;
    color:wheat;
+
 }
 @media only screen and (max-width:600px){
     *{
         flex-wrap: wrap;
     }
 }
+.panel-footer {
+    background-color: #57bfd9;
+    color: white;
+    font-family: monospace;
+    padding-top: 0px;
+  }
+  .footers{
+    margin-left: 50%;
+  }
+
+
+  .h1{
+    font-size: 30;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #email{
+    margin-left: 15em;
+  
+  }
+  #input{
+    opacity: 0.5;
+    width: 300px;
+  }
+  .btn-email{
+    background-color: orange;
+    width: 120px;
+  }  
+
+  .panel-body {
+    background-image: url("photo.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    color: black;
+    font-size: 20px;
+    padding: 100px;
+    margin: 0px;
+  }
